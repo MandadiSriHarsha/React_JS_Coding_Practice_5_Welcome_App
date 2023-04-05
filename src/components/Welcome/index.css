@@ -1,0 +1,46 @@
+.bg-container {
+  background-color: #1e293b;
+  font-family: 'Bree Serif';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.main-heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #f0bb03;
+}
+
+.main-description {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.main-button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0px;
+  color: #1e293b;
+  height: 40px;
+  width: 110px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+  .main-description {
+    font-size: 25px;
+  }
+  .main-button {
+    height: 45px;
+  }
+}
